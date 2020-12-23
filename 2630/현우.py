@@ -33,6 +33,6 @@ def search(start_x, end_x, start_y, end_y):
 	search(start_x, start_x+((end_x-start_x)//2), start_y+((end_y-start_y)//2)+1, end_y) # 좌하단
 	search(start_x+((end_x-start_x)//2)+1, end_x, start_y+((end_y-start_y)//2)+1, end_y) # 우하단
 
-search(0, n-1, 0, n-1) # 시작 y, 끝 y, 시작 x, 끝 x
+search(0, n-1, 0, n-1) # 시작 x, 끝 x, 시작 y, 끝 y
 print(white_cnt)
 print(blue_cnt)
