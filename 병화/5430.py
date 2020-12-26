@@ -1,30 +1,3 @@
-# from collections import deque
-# T = int(input())
-#
-# for _ in range(T):
-#     # 입력
-#     p = list(input())
-#     n = int(input())
-#     array = input()
-#     if array != '[]':
-#         array = list(map(int, array[1:-1].split(',')))
-#
-#     # 에러 검사
-#     if p.count('D') > n:
-#         print('error')
-#         continue
-#
-#     # 함수 수행
-#     queue = deque(array)
-#     for func in p:
-#         if func == 'D':
-#             queue.popleft()
-#         elif func == 'R':
-#             queue.reverse()
-#
-#     print(list(queue))
-#
-
 import sys
 T = int(sys.stdin.readline())
 
