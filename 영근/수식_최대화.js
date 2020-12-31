@@ -1,6 +1,9 @@
 const priorities = [];
+
 const expression = ['*','-','+'];
+
 const mark = [false,false,false];
+
 function solution(expression){
   let answer = 0;
   shuffle(0,[]);
