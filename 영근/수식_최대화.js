@@ -65,8 +65,3 @@ function calcExpress(express,numbers){
 function isNumber(number){
   return !Number.isNaN(Number(number));
 }
-
-const temp = "100-200*300-500+20";
-console.log(solution(temp));
-const temp2 = "50*6-3*2";
-console.log(solution(temp2));
