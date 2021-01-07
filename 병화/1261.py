@@ -30,6 +30,6 @@ def dijkstra():
 
                 if new_cost < distance[new_x][new_y]:
                     distance[new_x][new_y] = new_cost
-                    heapq.heappush(q, (new_x, new_y, new_cost))
+                    heapq.heappush(q, (new_cost, new_x, new_y))
 
 dijkstra()
